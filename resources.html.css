@@ -1,0 +1,30 @@
+@charset "UTF-8";
+.heading {
+	color: #2441C8;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: xx-large;
+	text-align: center;
+}
+.nav {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size: large;
+	text-align: center;
+	color: #4917E9;
+}
+.paragraph {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	color: #000000;
+	margin-right: 50px;
+	text-align: center;
+}
+.video {
+	text-align: right;
+}
+
+@media screen{
+.video {
+}
+}

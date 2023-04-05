@@ -1,0 +1,64 @@
+@charset "UTF-8";
+.about.html {
+}
+.headings {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: x-large;
+	color: #1B13B8;
+	text-align: center;
+}
+.HEADINGS {
+}
+.paragraph {
+	color: #000000;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: large;
+	text-align: center;
+}
+.nav {
+	font-size: large;
+}
+
+@media screen{
+.paragraph {
+}
+}
+.image {
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+}
+.title {
+	font-weight: bold;
+	font-size: xx-large;
+	text-align: center;
+}
+div.formRow {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 7px 0px;
+}
+div.formRow>* {
+	flex: 1 1 150px;
+}
+textarea {
+	margin-top: 10px;
+	height: 100px;
+	width: 95%;
+	text-align: center;
+}
+div#buttons {
+	text-align: center;
+	width: 100%;
+}
+input[type='submit'] {
+	font-size: 1.2em;
+	padding: 5px;
+	margin: 15px;
+}

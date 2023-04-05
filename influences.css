@@ -1,0 +1,18 @@
+@charset "UTF-8";
+.heading {
+	color: #183AD0;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size: xx-large;
+	text-align: center;
+	font-weight: bold;
+}
+.paragraph {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size: large;
+	text-align: center;
+}
+.nav {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	text-align: center;
+	font-size: large;
+}
